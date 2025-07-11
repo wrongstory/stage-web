@@ -25,7 +25,7 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo $GITHUB_SHA
 
-      - name: Github Actios Secret 변수 사용해보기
+      - name: Github Actios Secret 변수 사용해보기2
         run: |
           echo ${{ secrets.MY_NAME }}
           echo ${{ secrets.MY_HOBBY }}
