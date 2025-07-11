@@ -1,6 +1,6 @@
-# React + Vite
+# CI/CD TEST
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git 과 cloudfront 를 사용해서 CI/CD를 git 에 적용해봄
 
 Currently, two official plugins are available:
 
