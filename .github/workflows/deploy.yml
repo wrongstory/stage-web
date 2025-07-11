@@ -41,3 +41,6 @@ jobs:
 
       - name: S3에 빌드된 파일 업로드 하기
         run: aws s3 cp ./dist s3://pstage-web/ --recursive
+
+      - name: Cloudfront 캐시 무효화
+        run: aws cloudfront create-invalidation --distribution-id ECQW3VAK0E5Q2  --paths "/*"
